@@ -1,8 +1,11 @@
 @use '../config/reset';
-@use '../config/vars';
+
+$corDoBody:  #f5f6fa;
+$corDoHeader: #182C61;
+$corDoButton: #44bd32;
 
 body {
-    background-color: #f5f6fa;
+    background-color: $corDoBody;
 }
 
 li {
@@ -16,7 +19,7 @@ li {
 }
 
 header {
-    background-color: #182C61;
+    background-color: $corDoHeader;
     position: sticky;
     top: 0;
     left: 0;
@@ -62,7 +65,7 @@ section {
 
         .product-button {
             display: block;
-            background-color: #44bd32;
+            background-color: $corDoButton;
             color: #fff;
             text-align: center;
             padding: 8px 0;
